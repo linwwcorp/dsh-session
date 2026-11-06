@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Allow this conversation",
+    "description": "Adds an allow-for-this-conversation action that answers the rest of the running turn's permission requests without asking again."
+  }
+}
