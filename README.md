@@ -15,13 +15,25 @@ A DeepSeek Harness bundle that adds **Allow this conversation** to tool approval
 
 ## 安装 / Install
 
-在 Harness 当前的 profile 中把本目录作为 bundle 安装：
+安装地址：
+
+```
+https://github.com/linwwcorp/dsh-session
+```
+
+在 Harness 的 Plugin Manager 里选择安装插件，把上面的地址粘贴到安装输入框即可；也可以直接用命令行安装到当前 profile：
+
+```sh
+dsh plugin install https://github.com/linwwcorp/dsh-session
+```
+
+本地开发时可以直接安装工作目录：
 
 ```sh
 dsh plugin install /root/CODE/dsh-session
 ```
 
-或通过 Plugin Manager 的 `install_bundle` 操作，目标为本目录的绝对路径。
+或通过 Plugin Manager 的 `install_bundle` 操作，目标传入上面的 GitHub 地址或本地目录的绝对路径。
 
 ## 结构 / Layout
 

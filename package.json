@@ -4,6 +4,10 @@
   "private": true,
   "type": "module",
   "description": "Adds an allow-for-this-conversation action to tool approval prompts.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linwwcorp/dsh-session.git"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
